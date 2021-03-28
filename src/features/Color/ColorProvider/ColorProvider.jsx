@@ -3,7 +3,6 @@ import ColorContext from 'contexts/ColorContext';
 
 function ColorProvider(props) {
     const [color, setColor] = useState('red');
-    // const [number, setNumber] = useState([true, false, false, false]);
     const colorPicker = value => setColor(value);
 
     return (
