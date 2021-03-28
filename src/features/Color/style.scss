@@ -1,0 +1,41 @@
+.card {
+    &-header-color {
+        background-color: var(--info) !important;
+        color: white;
+    }
+
+    &-body {
+        padding: 2rem;
+    }
+
+    &-color-list {
+        display: flex;
+        align-items: center;
+    }
+
+    &-color-item {
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-left: 1rem;
+
+        &--choosen {
+            border: 0.2rem solid black;
+        }
+    }
+
+    &-color-item:first-child {
+        background-color: red;
+    }
+
+    &-color-item:nth-child(2) {
+        background-color: green;
+    }
+
+    &-color-item:nth-child(3) {
+        background-color: blue;
+    }
+
+    &-color-item:last-child {
+        background-color: gray;
+    }
+}

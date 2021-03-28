@@ -1,0 +1,18 @@
+.card {
+    
+    &-header-size {
+        background-color: var(--warning) !important;
+    }
+
+    &-body {
+        padding: 2rem;
+    }
+
+    @media screen and (max-width: 767px) {
+        margin-top: 2rem;
+    }
+}
+
+.btn-success {
+    margin-left: 1rem;
+}
